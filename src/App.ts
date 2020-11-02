@@ -4,7 +4,6 @@ import { errorHandler } from "./common/ErrorHandler";
 
 export const app = express();
 
-// Setup Express
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(errorHandler);

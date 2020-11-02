@@ -14,9 +14,7 @@ if (env.AWS_LAMBDA_FUNCTION_NAME == null) {
   const port = env.PORT || 3000;
   const mode = env.APP_ENV || "dev";
   app.listen(port, () => {
-    /* eslint-disable */
     console.log("App is running at http://localhost:%d in %s mode", port, mode);
     console.log("  Press CTRL-C to stop\n");
-    /* eslint-enable */
   });
 }

@@ -1,6 +1,11 @@
 {
-    "paramerters": {
+    "parameters": {
         "name": "nodejs-express-starter",
         "description": "nodejs-express-starter is a template project"
-    }
+    },
+    "files": [
+        "package.json",
+        "README.md"
+    ]
+
 }
