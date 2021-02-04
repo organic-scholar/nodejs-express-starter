@@ -4,13 +4,12 @@
     "version": "0.1.0",
     "private": true,
     "scripts": {
-        "debug": "node -r ts-node/register bin/serve.ts",
+        "start": "node -r ts-node/register src/server.ts",
         "lint": "eslint . --ext .ts",
         "test": "jest"
     },
     "husky": {
         "hooks": {
-            "pre-commit": "yarn run lint"
         }
     },
     "devDependencies": {
@@ -31,7 +30,7 @@
         "typescript": "~3.9.7"
     },
     "dependencies": {
-        "dotenv": "^8.2.0",
+        "dotenv-flow": "^3.2.0",
         "express": "^4.17.1",
         "serverless-http": "^2.6.0"
     }

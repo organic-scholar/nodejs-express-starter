@@ -1,6 +1,6 @@
 import express from "express";
 import bodyParser from "body-parser";
-import { errorHandler } from "./common/ErrorHandler";
+import { errorHandler } from "./common/error-handler";
 
 export const app = express();
 
